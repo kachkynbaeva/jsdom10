@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: orangered;
+    background-size: cover;
+    background-attachment:fixed ;
+    align-items: center;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.center {
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-4{
+    max-width: 33.33%;
+    padding: 15px;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 15px;
+    gap: 40px;
+}
+h5,h3, h2,h1,p{
+    color: white;
+    font-size: 22px;
+}
+
+.flag-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+#searchBtn , #searchInput{
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #043bf0;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px 0 0 0;
+
+}
+
+#searchBtn:hover{
+    background-color: #0482f0;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-wrapper{
+    margin-top: 15px;
+}
+.card-box{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    border: transparent;
+    padding: 20px 15px;
+
+    border-radius: 15px;
+}
+.box-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-box p{
+    font-weight: 600;
+}
+.card-box span{
+    font-weight: 200;
+}
+
+
+.hidden{
+    display: none;
+}
